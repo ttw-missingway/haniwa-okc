@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>Haniwa Page</title>
+    <!-- <meta charset="utf-8"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" media="screen and (min-device-width: 768px)" href="../style/new_haniwa.css">
+    <link rel="stylesheet" media="screen and (min-device-width: 100px) and (max-device-width: 767px)" href="../style/new_haniwa_mobile.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Saira:300,400" rel="stylesheet">
+  </head>
+  <body style="background: black;">
+
+    <nav role="navigation">
+      <div id="menuToggle">
+        <input type="checkbox" />
+        <span id="bar1"></span>
+        <span id="bar2"></span>
+        <span id="bar3"></span>
+        <ul id="menu">
+          <a class="menu-text" href="../index.html"><li>HOME</li></a>
+          <a class="menu-text" href="music.html"><li>MUSIC</li></a>
+          <a class="menu-text" href="../band/band.html"><li>BAND</li></a>
+          <a class="menu-text" href="../shows/shows.html"><li>SHOWS</li></a>
+          <a class="menu-text" href="../contact/contact.html"><li>CONTACT</li></a>
+        </ul>
+      </div>
+    </nav>
+
+   <div class="bg-band" style="height: 100vh;">
+    <div class="margin-wrapper">
+      <h1 id="title" data-toggle="collapse" data-target="#nav" style="margin-left: 18px; margin-top: 0px;"> <strong> HANIWA </strong><span id="subtext">/MUSIC </span></h1>
+      <div id="nav" class="collapse" style="background: black;">
+        <div>
+          <a href="../index.html" id="nav-link" style="text-decoration: none;"> HOME </a></div>
+        <div>
+          <a href="music.html" id="nav-link" style="text-decoration: none"> MUSIC </a></div>
+        <div>
+          <a href="../band/band.html" id="nav-link" style="text-decoration: none"> BAND </a></div>
+        <div>
+          <a href="../shows/shows.html" id="nav-link" style="text-decoration: none"> SHOWS </a></div>
+        <div>
+          <a href="../contact/contact.html" id="nav-link" style="text-decoration: none"> CONTACT </a></div>
+      </div>
+    </div>
+
+    <div id="stream" class="container-fluid full-width">
+      <div class="row">
+          <div class="col-sm-6">
+            <div id="spotify">
+              <iframe src="https://open.spotify.com/embed/album/7H0lTF7GSJW8aasvcpWVUe" width="290" height="400" frameborder="0" allowtransparency="true"></iframe>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div id="itunes">
+              <iframe src="https://tools.applemusic.com/embed/v1/album/946634105?country=us" height="400px" width="290px" frameborder="0"></iframe>
+            </div>
+          </div>
+      </div>
+    </div>
+
+    <div style="position: absolute; top: 7%; left: 70%">
+      <a href="music.html" style="font-family: Roboto Condensed; color: white; text-decoration: none; font-size: 18px;"> TnP/ <span><a style="color: #de4c73; font-size: 18px; text-decoration: none;"> stream </a></span></a>
+    </div>
+
+  </div>
+  </body>
+  </html>
